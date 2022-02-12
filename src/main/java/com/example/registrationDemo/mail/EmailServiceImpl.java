@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import com.mashape.unirest.http.JsonNode;
 import com.mashape.unirest.http.HttpResponse;
 
-@Service
+//@Service("mailgun")
 @Slf4j
 public class EmailServiceImpl implements EmailService{
 
